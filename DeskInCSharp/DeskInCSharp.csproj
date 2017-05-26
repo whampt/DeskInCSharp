@@ -112,22 +112,23 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Check.aspx" />
+    <Content Include="Members\Check.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="css\MasterStyle.css" />
+    <Content Include="License.txt" />
     <Content Include="Login.aspx" />
     <Content Include="Members\MembersHome.aspx" />
-    <Content Include="Pay.aspx" />
+    <Content Include="Members\Pay.aspx" />
     <Content Include="Register.aspx" />
-    <Content Include="Submit.aspx" />
+    <Content Include="Members\Submit.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Check.aspx.cs">
+    <Compile Include="Members\Check.aspx.cs">
       <DependentUpon>Check.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Check.aspx.designer.cs">
+    <Compile Include="Members\Check.aspx.designer.cs">
       <DependentUpon>Check.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
@@ -165,11 +166,11 @@
     <Compile Include="MembersMaster.master.designer.cs">
       <DependentUpon>MembersMaster.master</DependentUpon>
     </Compile>
-    <Compile Include="Pay.aspx.cs">
+    <Compile Include="Members\Pay.aspx.cs">
       <DependentUpon>Pay.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pay.aspx.designer.cs">
+    <Compile Include="Members\Pay.aspx.designer.cs">
       <DependentUpon>Pay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -181,11 +182,11 @@
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="Submit.aspx.cs">
+    <Compile Include="Members\Submit.aspx.cs">
       <DependentUpon>Submit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Submit.aspx.designer.cs">
+    <Compile Include="Members\Submit.aspx.designer.cs">
       <DependentUpon>Submit.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
