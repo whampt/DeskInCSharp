@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="DeskInCSharp.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/css/MasterStyle.css" rel="stylesheet" type="text/css" media="screen" runat="server" />
+</head>
+
+
+<body class="HolyGrail">
+
+    <header>Help Desk</header>
+
+    <div id="HolyGrailBody">
+        <div class="HolyGrailContent">
+
+            <form id="form1" runat="server">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </form>
+        </div>
+        <nav class="HolyGrailNav">
+            <div class="NavDiv">
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="About.aspx">About</a></li>
+                    <li><a href="Contact.aspx">Contact Us</a></li>
+                    <li><a href="Login.aspx">Login</a></li>
+                    <li><a href="Register.aspx">Register</a></li>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    <!--lets see if more <li> can go here-->
+                    </asp:ContentPlaceHolder>
+                </ul>
+            </div>
+        </nav>
+        <!--<aside class="HolyGrailAds"><p>ads</p></aside>-->
+    </div>
+
+    <footer>Footer</footer>
+</body>
+</html>

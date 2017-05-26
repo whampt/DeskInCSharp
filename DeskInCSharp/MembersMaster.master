@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MembersMaster.master.cs" Inherits="DeskInCSharp.MembersMaster" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:ContentPlaceHolder ID="MemberContent" runat="server">
+                </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    <li><a href="~/Members/MembersHome.aspx">Members Home</a></li>
+    <li><a href="~/Members/Submit.aspx">Submit Ticket</a></li>
+    <li><a href="~/Members/Check.aspx">Track a Ticket</a></li>
+    <li><a href="~/Members/Pay.aspx">Pay Bill</a></li>
+</asp:Content>

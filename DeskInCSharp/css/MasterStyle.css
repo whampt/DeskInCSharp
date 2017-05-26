@@ -1,0 +1,76 @@
+﻿body {
+    display: flex;
+    min-height: 98vh;
+    flex-direction: column;
+}
+
+#HolyGrailBody {
+    display: flex;
+    flex: 1;
+}
+
+.HolyGrailContent {
+    flex: 5;
+    font-size: large;
+    border: thin inset #66FFFF;
+    padding: 1em;
+}
+
+.HolyGrailNav {
+    border: inset #66FFFF;
+    display: block;
+    flex: 1;
+    order: -1;
+    background-color: #0099CC;
+}
+/*main {
+    flex: 2;
+    font-size: large;
+}*/
+.HolyGrailAds {
+    /* 12em is the width of the columns */
+    flex: 0 0 12em;
+}
+
+
+
+footer {
+    flex: none;
+    font-size: large;
+    border: thin inset #66FFFF;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #0000CC;
+    color: #CCFFCC;
+}
+
+header {
+    border: thin inset #66FFFF;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 3em;
+    background-color: #CCCCFF;
+    font-size: xx-large;
+}
+
+ul {
+    list-style: none;
+    font-size: large;
+    margin-top: 4em;
+}
+
+li {
+    padding: 0 25%;
+    margin: 2em 0;
+}
+
+.ValidationControls {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
