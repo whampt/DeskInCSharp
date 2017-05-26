@@ -119,6 +119,7 @@
     <Content Include="Login.aspx" />
     <Content Include="Members\MembersHome.aspx" />
     <Content Include="Members\Pay.aspx" />
+    <Content Include="README.txt" />
     <Content Include="Register.aspx" />
     <Content Include="Members\Submit.aspx" />
     <Content Include="Web.config" />
