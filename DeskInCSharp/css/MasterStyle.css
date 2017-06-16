@@ -23,10 +23,7 @@
     order: -1;
     background-color: #0099CC;
 }
-/*main {
-    flex: 2;
-    font-size: large;
-}*/
+
 .HolyGrailAds {
     /* 12em is the width of the columns */
     flex: 0 0 12em;
