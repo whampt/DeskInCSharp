@@ -32,7 +32,7 @@
                     <li><a href="Login.aspx">Login</a></li>
                     <li><a href="Register.aspx">Register</a></li>
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
-                    <!--lets see if more <li> can go here-->
+                    <!--lets see if more <li> can go here It can!-->
                     </asp:ContentPlaceHolder>
                 </ul>
             </div>
