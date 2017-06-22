@@ -1,0 +1,7 @@
+﻿WebMaster,
+
+Contact us page of DeskInCSharp has been used to send:
+
+Name:		##Name##
+Email:		##Email##
+Comments:	##Comments##
