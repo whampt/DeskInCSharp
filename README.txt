@@ -1,7 +1,9 @@
-﻿This is a C# ASP.NET web form project written using Visual Studio 2017 as a practice project. The finished project will have a Home, Login, Register, 
-Contact and About page accessible to anyone who visits the website.  The use case is an imaged small business that provides tech support for clients.
+﻿This is a C# ASP.NET web form project written using Visual Studio 2017 as a practice project. The finished project will have a Home, Login, Register, Contact and About page accessible to anyone who visits the website.  The use case is an imaged small business that provides tech support for clients.
+ 
 The members will be clients requesting tech support. The members section is accessible to those who register on the registration 
-page and then login. The Login system uses ASP.NET Identity package and will have email verification & captcha at a later date. The login system 
+page and then login. The Login system uses ASP.NET Identity package
+(ref https://docs.microsoft.com/en-us/aspnet/identity/overview/getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project)
+and will have email verification & captcha at a later date. The login system 
 will eventually have a fork where there is no Register page so that only invited clients can login.
 
 The Members Section is currently under construction. Email will be integrated at as the project develops.The goal is to have tickets submittable 
