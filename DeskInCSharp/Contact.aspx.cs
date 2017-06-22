@@ -18,9 +18,15 @@ namespace DeskInCSharp
         protected void Submit_Click(object sender, EventArgs e)
         {
             if (Page.IsValid)
-            {
-                string fileName = Server.MapPath("~/App_Data/Contact.txt");
-                string mailBody = File.ReadAllText(fileName);
+            {                
+                string mailBody = Cache["ContactFormMailBody"] as String; 
+
+                    if (string.IsNullOrEmpty(mailBody))
+                {
+                    string fileName = Server.MapPath("~/App_Data/Contact.txt");
+                    mailBody = File.ReadAllText(fileName);
+                    Cache.Insert("ContactFormMailBody", mailBody, new System.Web.Caching.CacheDependency(fileName));
+                }
 
                 mailBody = mailBody.Replace("##Name##", (FirstName.Text + " " + LastName.Text));
                 mailBody = mailBody.Replace("##Email##",Email.Text);
